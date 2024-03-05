@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Manrope:wght@200..800&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700&display=swap')
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 30%);
+    background-color: hsl(218, 20%, 16%);
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 19%, 32%);
+    width: 520px;
+    height: 320px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: hsl(193, 38%, 86%);
+}
+
+p + svg{
+    position: absolute;
+    bottom: 4rem;
+}
+
+#generate{
+    position: absolute;
+    bottom: -10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.advice-num{
+    font-size: 0.7rem;
+    letter-spacing: 0.3rem;
+    color: hsl(150, 100%, 66%);
+    font-weight: 700;
+    position: absolute;
+    top: 2rem;
+}
+
